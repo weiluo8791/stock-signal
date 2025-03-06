@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoint files
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore virtual environment directories
+stock_signal_310/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore editor-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any other files or directories that you want to exclude

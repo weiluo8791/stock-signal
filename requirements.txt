@@ -1,0 +1,7 @@
+yfinance
+pandas
+numpy
+ta-lib
+asyncio
+schedule
+requests
