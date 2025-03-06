@@ -338,7 +338,7 @@ def send_email(df):
         msg['To'] = EMAIL_CONFIG['receiver']
         msg['Subject'] = f"Stock Screening Report - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
 
-        # 构建HTML内容
+        # HTML
         html = f"""<h3>Top 10 Recommended Stocks:</h3>
         {df.to_html(index=False, float_format='%.2f')}
         <p>Screening Criteria: Market Cap > 2 Billion + Technical Indicator Composite Score</p>
