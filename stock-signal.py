@@ -16,9 +16,9 @@ import requests
 # 0. config
 # ---------------------------
 EMAIL_CONFIG = {
-    'sender': 'iqboss@gmail.com',  # to
-    'password': 'app_password',  # gmail app password
-    'receiver': 'iqboss@gmail.com',  # from
+    'sender': 'your_email@gmail.com',  # to
+    'password': 'your_app_password',  # gmail app password
+    'receiver': 'their_email@gmail.com',  # from
     'smtp_server': 'smtp.gmail.com',  # SMTP server
     'smtp_port': 587  # port
 }
