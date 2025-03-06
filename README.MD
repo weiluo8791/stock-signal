@@ -21,7 +21,7 @@ This project is a stock screening tool that fetches stock data, calculates vario
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/stock-signal.git
+    git clone git@github.com:weiluo8791/stock-signal.git
     cd stock-signal
     ```
 
